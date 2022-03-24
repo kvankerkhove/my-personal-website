@@ -8,16 +8,29 @@
         <title>My Personal Website</title>
     </head>
     <body>
-        <h1>Katey VanKerkhove</h1>
-        <section id="container">
-            <div>Hello My Name is Katey VanKerkhove and I'm a Software Engineer Student</div>
-            <div id="picture">
-                <img src="images/me.jpg" alt="me" width="300"/>
+        <header>
+            <div class="dropdown">
+                <button class="dropbtn">Menu &#9660;</button>
+                <div class="dropdown-content">
+                    <option id="github">GitHub Link</option>
+                    <option id="nori">My Dog!</option>
+                    <option id="table">Quick Fact Table</option>
+                </div>
             </div>
-            <div>
-                <a id="github" href="https://github.com/kvankerkhove">Click Here for my GitHub</a>
-                Thank you!
+        </header>
+        <section id="container">
+            <div class="partone">
+                <h2>Hello World!</h2>
+                <div id="emoji">&#128187;</div>
+                <br>
+                <div id="description">My Name is Katey VanKerkhove and I'm a Software Engineer Student at Flatiron School.</div>
+                <div id="text"></div>
+            </div>
+            <div class="parttwo" id="picture">
+                <img id="image" src="images/me.jpg" alt="me" width="300"/>
             </div>
         </section>
+        <script src="script.js"></script>
     </body>
 </html>
+
