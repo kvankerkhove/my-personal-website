@@ -41,6 +41,12 @@ header {
      font-weight: bold;
  }
 
+ #more-info {
+     text-align: left;
+     font-weight: lighter;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
  .parttwo {
      float: left;
      width: 300px;
@@ -92,3 +98,7 @@ header {
  }
 
  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+ #random {
+     visibility: hidden;
+ }
