@@ -1,4 +1,5 @@
 const github = document.querySelector("#github");
+const menu = document.querySelector(".dropbtn")
 
 const noriBtn = document.querySelector("#nori");
 const image = document.querySelector("#image");
@@ -8,6 +9,14 @@ const lines = document.getElementById("lines");
 const moreInfo = document.getElementById("more-info");
 const randomBtn = document.querySelector("#random")
 const factGen = document.querySelector("#fact-gen");
+
+menu.addEventListener('click', function() {
+    image.src = "images/me.jpg";
+    description.innerHTML = "My Name is Katey VanKerkhove and I'm a Software Engineer Student at Flatiron School."
+    emoji.innerHTML = "&#128187;"
+    moreInfo.appendChild(lines);
+    randomBtn.style.visibility = 'hidden';
+})
 
 
 github.addEventListener('click', function() {
